@@ -12,6 +12,7 @@
 	<nav>
 		<a href="#">Instructions</a>
 		<a href="#">Game</a>
+		<button type="submit"  onClick="refreshPage()">Reset</button>
 	</nav>
 	<main>
 		<h2>Instructions</h2>
@@ -29,5 +30,10 @@
 		<p class="message">Created with &hearts; by <span class="name">GA</span></p>
 	</footer>
 	<script src="js/main.js"></script>
+	<script>
+		function refreshPage(){
+		    window.location.reload();
+		} 
+	</script>
 </body>
 </html>

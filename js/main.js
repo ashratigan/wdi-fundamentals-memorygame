@@ -81,3 +81,7 @@ var createBoard = function () {
 // Call createBoard to create board
 createBoard();
 
+
+function refreshPage(){
+	window.location.reload();
+} 
